@@ -1,0 +1,14 @@
+# lshtm_theme-js:
+#   filter: rjsmin
+#   output: ckanext-lshtm_theme/%(version)s-lshtm_theme.js
+#   contents:
+#     - js/lshtm_theme.js
+#   extra:
+#     preload:
+#       - base/main
+
+# lshtm_theme-css:
+#   filter: cssrewrite
+#   output: ckanext-lshtm_theme/%(version)s-lshtm_theme.css
+#   contents:
+#     - css/lshtm_theme.css
