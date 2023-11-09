@@ -64,15 +64,15 @@ None at present
     # (optional, default: 24).
     ckanext.lshtm_theme.some_setting = some_default_value
 
-## Developer installation
+## Private installation
 
 To install ckanext-lshtm_theme for development, activate your CKAN virtualenv and
 do:
 
-    git clone https://github.com/issafy/ckanext-lshtm_theme.git
+    source /usr/lib/ckan/default/bin/activate
+    git clone git@github.com:issafy/ckanext-lshtm_theme
     cd ckanext-lshtm_theme
     python setup.py develop
-    pip install -r dev-requirements.txt
 
 ## Tests
 
