@@ -1,4 +1,4 @@
-[![Tests](https://github.com//ckanext-lshtm_theme/workflows/Tests/badge.svg?branch=main)](https://github.com//ckanext-lshtm_theme/actions)
+<!--[![Tests](https://github.com//ckanext-lshtm_theme/workflows/Tests/badge.svg?branch=main)](https://github.com//ckanext-lshtm_theme/actions)-->
 
 # ckanext-lshtm_theme
 
