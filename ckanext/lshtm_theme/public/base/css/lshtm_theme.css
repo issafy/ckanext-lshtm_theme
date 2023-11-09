@@ -39,7 +39,7 @@ html {
   /* The "active" navigation pill (for example, when you're on the /dataset page
     the "Datasets" link is active). */
   .masthead .navigation .nav-pills li.active a {
-    background-color: rgb(74, 74, 74);
+    background-color: #f59f1d;
   }
   /* The "box shadow" effect that appears around the search box when it
     has the keyboard cursor's focus. */
