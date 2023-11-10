@@ -65,15 +65,18 @@ None at present
     ckanext.lshtm_theme.some_setting = some_default_value
 
 ## Private installation
+This guide suppose that your ckan installation directory is the default one which
+is located at <code>/usr/lib/ckan/default</code>.
 
 To install ckanext-lshtm_theme for development, activate your CKAN virtualenv and
 do:
-
+```bash
+    cd /usr/lib/ckan/default/src/ckan/contrib/cookiecutter/ckan_extension
     source /usr/lib/ckan/default/bin/activate
     git clone git@github.com:issafy/ckanext-lshtm_theme
     cd ckanext-lshtm_theme
     python setup.py develop
-
+```
 ## Tests
 
 To run the tests, do:
