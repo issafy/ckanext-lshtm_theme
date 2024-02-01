@@ -33,12 +33,22 @@ html {
   /* The "navigation pills" in the masthead (the links to Datasets,
     Organizations, etc) when the user's pointer hovers over them. */
   .masthead .navigation .nav-pills li a:hover {
-    background-color: #383856;
+    background-color: #f59f1d;
+    color: white;
+  }
+  .nav-pills li a:hover {
+    background-color: #2c2c43;
     color: white;
   }
   /* The "active" navigation pill (for example, when you're on the /dataset page
     the "Datasets" link is active). */
   .masthead .navigation .nav-pills li.active a {
+    background-color: #f59f1d;
+  }
+  .nav-pills li.active a {
+    background-color: #f59f1d;
+  }
+  .nav-pills li.active a:hover {
     background-color: #f59f1d;
   }
   /* The "box shadow" effect that appears around the search box when it
